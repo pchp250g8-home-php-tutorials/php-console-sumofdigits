@@ -5,13 +5,13 @@ The program does the following:
   1. Prompts the user for an integer.
   2. Sets the sum of digits variable to zero.
   3. Creates a temporary variable with an initial
-  a positive value equal in magnitude to the number entered from the keyboard.
+     a positive value equal in magnitude to the number entered from the keyboard.
   4. The loop with precondition is executed:
     a) The value of the temporary variable is compared to zero.
        If its value is greater than zero, the loop continues executing; otherwise, it terminates. (Go to step 5)
     b) The sum of digits variable is incremented by modulo to 10.
     c) The temporary variable is divisible by 10.     
-  6. The entered number and the sum of its digits are displayed on the screen.
+  5. The entered number and the sum of its digits are displayed on the screen.
 
 SumOfDigits. Занятия по PHP. Простой Ввод/вывод. Алгоритмы. Консольное приложение.
 Проект консольного приложения написан на языке программирования PHP и реализован в интегрированной среде Apache NetBeans. 
@@ -25,4 +25,4 @@ SumOfDigits. Занятия по PHP. Простой Ввод/вывод. Алг
         Если оно больше нуля, цикл продолжает выполняться, в противном случае завершается (Переход к пункту 5).
      b) Сумма цифр увеличивается на остаток от деления значения временной переменной на 10.
      c) Времменая переменная делится на 10
-  6. На экран выводится введённое число и сумма его цифр.
+  5. На экран выводится введённое число и сумма его цифр.
